@@ -51,8 +51,8 @@ int knockReadings[maximumKnocks];   // When someone knocks this array fills with
 int knockSensorValue = 0;           // Last reading of the knock sensor.
 int programButtonPressed = false;   // Flag so we remember the programming button setting at the end of the cycle.
 
-const char* ssid = "Suresh";
-const char* password = "mvls$1488";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASS";
 
 void setup()
 {
